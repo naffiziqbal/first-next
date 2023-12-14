@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import React from "react";
+import RootLayout from "../../../../../Components/Layouts/RootLayout";
 
 const PostDetails = () => {
   const route = useRouter();
@@ -9,5 +9,8 @@ const PostDetails = () => {
     </div>
   );
 };
+
+
+
 
 export default PostDetails;

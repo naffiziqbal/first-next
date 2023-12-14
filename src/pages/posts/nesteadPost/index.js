@@ -1,4 +1,4 @@
-import React from "react";
+import RootLayout from "../../../../Components/Layouts/RootLayout";
 
 const NeastedPost = () => {
   return (
@@ -9,3 +9,7 @@ const NeastedPost = () => {
 };
 
 export default NeastedPost;
+
+NeastedPost.getLayout = function getLayout(page) {
+  return <RootLayout>{page}</RootLayout>;
+};

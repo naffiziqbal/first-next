@@ -1,6 +1,5 @@
 import { redirect } from "next/dist/server/api-utils";
 import { useRouter } from "next/router";
-import React from "react";
 
 const Error = () => {
   const router = useRouter();
