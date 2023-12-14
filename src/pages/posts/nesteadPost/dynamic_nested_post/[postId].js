@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import RootLayout from "../../../../../Components/Layouts/RootLayout";
+import RootLayout from "@/Components/Layouts/RootLayout";
 
 const PostDetails = () => {
   const route = useRouter();

@@ -1,4 +1,4 @@
-import RootLayout from "../../../Components/Layouts/RootLayout";
+import RootLayout from "@/Components/Layouts/RootLayout";
 
 const Contact = () => {
   return (
@@ -12,4 +12,3 @@ export default Contact;
 Contact.getLayout = function getLayout(page) {
   return <RootLayout>{page}</RootLayout>;
 };
-Contact;
